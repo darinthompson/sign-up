@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #5d8de4;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.logo {
+  margin: auto;
+  width: 162px;
+  padding: 30px 0 30px 0;
+}
+
+h1 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  position: relative;
+  left: 100px;
+}
+
+input[type="email"], input[type="password"] {
+  font-size: 1.0em;
+  padding: 15px;
+  color: #222;
+}
+
+form label {
+  display: block;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 286px;
+  border: 2px #b5b5b5 solid;
+  color: #eee;
+  height: 21px;
+  margin-bottom: 30px;
+}
+
+button.sign-up {
+  background-color: #85c774;
+  color: #fff;
+  font-size: 1.0em;
+  width: 316px;
+  height: 51px;
+  padding: 15px;
+  border: 2px solid #85c774;
+  margin-bottom: 10px;
+}
+
+button.sign-up:hover {
+  background-color: #408E2B;
+}
+
+fieldset {
+  border-width: 0px;
+}
+
+.container {
+  width: 320px;
+  padding: 0 40px 0 40px;
+  margin: auto;
+  background-color: #fff;
+}
+
+.forgot_password {
+  margin-left: 100px;
+  margin-bottom: 30px;
+}
+.forgot_password a {
+  color: #b5b5b5;
+  text-decoration: none;
+}
+
+.forgot_password:hover {
+  text-decoration: underline;
+  color: #999;
+}
